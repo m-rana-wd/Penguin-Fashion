@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600 !important;
+    margin-bottom: 48px !important;
+    color: #363958;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px !important;
+    color: #363958;
+}
+ul li a{
+    font-weight: 500;
+}
+section{
+    margin-bottom: 100px;
+}
+.header-bg{
+    background-color: #FFFBF0;
+}
+.nav-bg{
+    border-bottom: 1px solid #F6F4ED;
+    background-color: #FFFBF0;
+}
+/* Penguin Card */
+.card{
+    border-radius: 15px !important;
+}
+.penguin-card-img{
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+.price{
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FABE4C;
+}
+.penguin-card-btn{
+    float: right;
+}
+
+/* Help Section */
+.help-card{
+    width: 489px;
+    height: 135px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.help-card img{
+    width: 78px;
+    height: 82px;
+    margin-top: 10px;
+    margin: 25px;
+}
+.help-content{
+    float: right;
+    margin-right: 61px !important;
+    margin: 15px;
+}
+.help-img{
+    width: 100%;
+}
+/* Tempalte Button style */
+.btn-success{
+    background-color: #7a9319 !important; 
+    border: none !important;
+}
+.btn-success:hover{
+    background-color: #7a9319 !important;
+}
+/* Foter */
+footer h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+footer p{
+    font-size: 14px;
+    color: #bbbb;
+    margin-left: -6px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+footer p:hover{
+    color: #28A745;
+    margin-left: -2px;
+}
